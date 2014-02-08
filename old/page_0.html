@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Alarm Setter</title>
+  </head>
+  <body>
+    <h1>The Alarm Setter</h1>
+    <p>Use this app to help you determine when to set your alarm!</p>
+    <h2>When do you need to be <em>out your door</em> by?
+      <form action="/results" method="POST">
+	<input type="text" placeholder="In military time, e.g. 8:00" name="time" required/>
+    </h2>
+    <h3>Now, for each activity, enter the number of minutes you'll take (if you're not going to do something just leave it at 0!)</h3>
+    <p>Brushing teeth:
+      <input type="text" value = "0" name="teeth"/>
+    <p>Showering:
+      <input type="text" value = "0" name="shower" />
+    <p>Getting dressed:
+      <input type="text" value = "0" name="dress"/>
+    <p>Eating breakfast:
+      <input type="text" value = "0" name="eat"/>
+    <p>Makeup:
+      <input type="text" value = "0" name="makeup"/>
+    <p>Hair:
+      <input type="text" value = "0" name="hair"/>
+    <p>Geting out of bed...
+      <input type="text" value = "0" name="bed"/>
+    <p>Anything else? (enter time in minutes)
+      <input type="text" value = "0" name="other"/>
+    <p>
+      <input type="submit" value="submit" />
+    <p>
+    </form>
+    
+  </body>
+<html>
