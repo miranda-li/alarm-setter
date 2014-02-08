@@ -5,15 +5,36 @@
   </head>
   <body>
     <h1>The Alarm Setter</h1>
-    <p>Use this app to help you determine when to set your alarm! You don't have to worry about </p>
-    <h2>When do you need to be <em>out your door</em> by?</h2>
-	<h3>Now, after each activity, enter the amount of time you take (if you're not going to do something just leave it blank!)</h3>
-	<p>Brushing teeth:</p>
-	<p>Showering:</p>
-	<p>Getting dressed:</p>
+    <p>Use this app to help you determine when to set your alarm!</p>
+    <h2>When do you need to be <em>out your door</em> by?
+      <form action="/" method="post">
+	<input type="text" placeholder="In military time, e.g. 8:00" name="time" required/>
+      </form>
+    </h2>
+    <h3>Now, after each activity, enter the amount of time you take (if you're not going to do something just leave it blank!)</h3>
+      <form action="/" method="post">
+	<p>Brushing teeth:
+	<input type="text" placeholder="Minutes to brush your teeth" name="teeth" required/>
+	<p>Showering:
+	<input type="text" placeholder="Minutes to shower" name="shower" required/>
+	<p>Getting dressed:
+	<input type="text" placeholder="Minutes to get dressed" name="dress" required/>
+	<p>Eating breakfast:
+	<input type="text" placeholder="Minutes to eat" name="eat" required/>
+      </form>
+      <form action="/" method="post">
+	<p>Makeup:
+	<input type="text" placeholder="Minutes to put makeup on" name="makeup" required/>
+	<p>Hair:
+	<input type="text" placeholder="Minutes to do your hair" name="hair" required/>
+	<p>Geting out of bed...
+	<input type="text" placeholder="Don't underestimate :)" name="bed" required/>
+	<p>Anything else?
+	<input type="text" placeholder="?" name="other" required/>
 	<p>
-	
+	  <input type="submit" value="submit" />
+	<p>
+      </form>
+      
   </body>
-  
-</script>
 <html>
